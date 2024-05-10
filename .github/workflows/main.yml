@@ -10,3 +10,5 @@ build-job:
         name: Check out code 
       - name: Check out code
         run: echo Hello World
+      - name: Index.html content
+        run: cat Index.html
